@@ -53,7 +53,7 @@ with st.form("Cover Letter Generator", clear_on_submit=False):
         key="2"
     )
     personal_skills = st_tags(
-        label="Enter your advanced technical skills:",
+        label="Enter your personal skills:",
         text="Press enter or tap to add more skills",
         value=[],
         suggestions=["Able to work under pressure", "Great communication skills", "Team leader", "Team player",
